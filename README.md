@@ -3,11 +3,11 @@
 ![Compatible with: Camunda Platform 8](https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%208-0072Ce)
 [![](https://img.shields.io/badge/Lifecycle-Incubating-blue)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#incubating-)
 
-The goal of this project is to provide a simple way to evaluate Thymeleaf templates with FEEL expressions.
+The goal of this project is to provide a simple way to evaluate [Thymeleaf](https://www.thymeleaf.org/) templates with [FEEL](https://docs.camunda.io/docs/components/modeler/feel/what-is-feel/) expressions.
 
 # How to use this library
 
-The templates expressions are evaluated with FEEL so you can use expressions like ${now()+duration("P3M")}
+The templates expressions are evaluated with [FEEL](https://docs.camunda.io/docs/components/modeler/feel/what-is-feel/) so you can use expressions like ${now()+duration("P3M")}. For a good overview of available expressions, you can refer to [Camunda's FEEL expression introduction](https://docs.camunda.io/docs/components/modeler/feel/language-guide/feel-expressions-introduction/) 
 
 This can be changed by modifying the ThymeleafConfig encoding, prefix, expression language, date formatting patterns, etc.
 
