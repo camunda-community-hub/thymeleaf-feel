@@ -8,9 +8,9 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.thymeleaf.context.Context;
 
-import io.camunda.google.config.ThymeleafConfig;
-import io.camunda.google.thymeleaf.ICustomTemplateResolver;
-import io.camunda.google.thymeleaf.TemplateEngineFactory;
+import io.camunda.thymeleaf.feel.ICustomTemplateResolver;
+import io.camunda.thymeleaf.feel.TemplateEngineFactory;
+import io.camunda.thymeleaf.feel.config.ThymeleafConfig;
 
 public class TemplateEngineFactoryTest {
 

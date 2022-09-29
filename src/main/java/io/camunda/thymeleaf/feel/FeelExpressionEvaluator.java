@@ -1,4 +1,4 @@
-package io.camunda.google.feel;
+package io.camunda.thymeleaf.feel;
 
 import java.time.LocalDate;
 import java.time.ZonedDateTime;
@@ -13,7 +13,7 @@ import org.thymeleaf.standard.expression.IStandardVariableExpression;
 import org.thymeleaf.standard.expression.IStandardVariableExpressionEvaluator;
 import org.thymeleaf.standard.expression.StandardExpressionExecutionContext;
 
-import io.camunda.google.config.ThymeleafConfig;
+import io.camunda.thymeleaf.feel.config.ThymeleafConfig;
 import scala.util.Either;
 
 public class FeelExpressionEvaluator implements IStandardVariableExpressionEvaluator {

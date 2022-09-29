@@ -1,4 +1,4 @@
-package io.camunda.google.thymeleaf;
+package io.camunda.thymeleaf.feel;
 
 import java.util.Map;
 
@@ -6,7 +6,7 @@ import org.thymeleaf.IEngineConfiguration;
 import org.thymeleaf.templateresolver.StringTemplateResolver;
 import org.thymeleaf.templateresource.ITemplateResource;
 
-import io.camunda.google.config.ThymeleafConfig;
+import io.camunda.thymeleaf.feel.config.ThymeleafConfig;
 
 public class ThymeleafCustomResourceResolver extends StringTemplateResolver {
     

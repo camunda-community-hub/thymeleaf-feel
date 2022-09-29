@@ -1,4 +1,4 @@
-package io.camunda.google.thymeleaf;
+package io.camunda.thymeleaf.feel;
 
 public interface ICustomTemplateResolver {
 

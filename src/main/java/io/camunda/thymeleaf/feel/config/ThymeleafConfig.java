@@ -1,8 +1,8 @@
-package io.camunda.google.config;
+package io.camunda.thymeleaf.feel.config;
 
 import org.thymeleaf.templatemode.TemplateMode;
 
-import io.camunda.google.thymeleaf.ICustomTemplateResolver;
+import io.camunda.thymeleaf.feel.ICustomTemplateResolver;
 
 public class ThymeleafConfig {
 

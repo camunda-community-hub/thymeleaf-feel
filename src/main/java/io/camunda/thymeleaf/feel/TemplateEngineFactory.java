@@ -1,4 +1,4 @@
-package io.camunda.google.thymeleaf;
+package io.camunda.thymeleaf.feel;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,8 +8,7 @@ import org.thymeleaf.dialect.IDialect;
 import org.thymeleaf.standard.StandardDialect;
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
 
-import io.camunda.google.config.ThymeleafConfig;
-import io.camunda.google.feel.FeelExpressionEvaluator;
+import io.camunda.thymeleaf.feel.config.ThymeleafConfig;
 
 
 public class TemplateEngineFactory {
