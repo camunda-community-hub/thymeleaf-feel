@@ -1,4 +1,4 @@
-package io.camunda.google;
+package io.camunda.thymeleaf.feel;
 
 import java.util.Map;
 import java.util.regex.Matcher;
@@ -8,8 +8,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.thymeleaf.context.Context;
 
-import io.camunda.thymeleaf.feel.ICustomTemplateResolver;
-import io.camunda.thymeleaf.feel.TemplateEngineFactory;
 import io.camunda.thymeleaf.feel.config.ThymeleafConfig;
 
 public class TemplateEngineFactoryTest {
