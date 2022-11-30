@@ -35,8 +35,7 @@ public class FeelExpressionEvaluator implements IStandardVariableExpressionEvalu
     
     private FeelEngine getFeelEngine() {
         if (feelEngine == null) {
-            feelEngine = new FeelEngine.Builder().valueMapper(SpiServiceLoader.loadValueMapper()).functionProvider(SpiServiceLoader.loadFunctionProvider())
-                    .build();
+            feelEngine = new FeelEngine.Builder().build();
         }
         return feelEngine;
     }
