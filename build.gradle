@@ -15,7 +15,7 @@ repositories {
 
 dependencies {
   api "org.thymeleaf:thymeleaf:3.0.15.RELEASE"
-  api "org.camunda.feel:feel-engine:1.15.1"
+  api "org.camunda.feel:feel-engine:1.17.3"
   
   testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
